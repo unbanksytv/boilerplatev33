@@ -6,9 +6,9 @@ function App() {
   const [isToggle, toggle] = useToggleHook(false);
 
   let name: string = "livethelifetv";
-  let age: number = 1;
+  let age: number = 33;
 
-  const [country, setCountry] = useState<string | null>("UK");
+  const [country, setCountry] = useState<string | null>("Hawaii");
 
   return (
     <div className={`${isToggle ? "dark" : ""}`}>
